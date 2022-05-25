@@ -119,8 +119,11 @@ img {
 }
 
 .contact .link {
-  display: inline-flex;
+  display: flex;
   align-items: center;
+
+  color: var(--primary-fontcolor);
+  text-decoration: none;
 }
 
 .site-nav .link {
@@ -278,8 +281,8 @@ img {
 }
 
 .section.peculiarity {
-  padding-top: 95px;
-  padding-bottom: 95px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .peculiarity .title {
@@ -305,15 +308,13 @@ img {
 }
 
 .what-list .item {
-  flex-wrap: wrap;
-  width: calc(100% / 3 - 30px);
   margin-right: 30px;
 }
 
 .what-list .item:nth-child(3) {
   margin-right: 0;
 }
-.contact .link,
+
 .portfolio-list .link {
   display: block;
   color: var(--primary-fontcolor);
